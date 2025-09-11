@@ -1,0 +1,141 @@
+*{
+    
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: centre;
+  background-attachment: fixed;
+  background-blend-mode:dark ;
+  background-color: #70F2E3;
+  margin: 0;
+}
+
+.title{
+  height:85px;
+  margin: 0;
+  background-color:rgb(5, 155, 255);
+}
+
+.container{
+  margin-top: 8%;
+  margin-left: 37%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  transform: scale(1.02);
+}
+
+.username{
+  height: 40px;
+  width: 300px;
+  border: 1px solid rgb(5, 155, 255);
+  background-color: rgb(5, 155, 255);
+  border-radius: 25px;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+
+.username:hover{
+  cursor: pointer;
+  border-color: black;
+}
+
+.password{
+  height: 40px;
+  width: 300px;
+  border: 1px solid rgb(5, 155, 255);
+  background-color: rgb(5, 155, 255);
+  border-radius: 25px;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+
+.password:hover{
+  cursor: pointer;
+  border-color: black;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: rgb(255, 255, 255);
+opacity: 1; /* Firefox */
+}
+
+.box1{
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+
+
+.box2{
+  padding-left: 120px;
+}
+
+.box6{
+  display: flex;
+  flex-direction: row;
+  column-gap: 90px;
+}
+
+.submit{
+  height: 42px;
+  width: 140px;
+  border-radius: 25px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  background-color: #FFE5FF;
+  border: 1px solid #FFE5FF;
+  font-size: 21px;
+  font-weight: 500;
+  color: rgb(39, 39, 39);
+  transition: 0.1s ease-out;
+  margin-left: 110px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.submit:hover{
+  box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.233);
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.1s ease-in;
+  background-color: rgb(255, 144, 32,1);
+  color: white;
+}
+
+i{
+  position: relative;
+  left: -340px;
+
+}
+
+label{
+  color: rgb(5, 155, 255);
+  font-size: 16px;
+}
+
+label a{
+  color: rgb(5, 155, 255);
+  text-decoration: none;
+}
+
+.check{
+  margin: none;
+}
